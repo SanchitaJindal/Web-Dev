@@ -3,20 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First Page</title>
+    <title>Document</title>
   </head>
   <body>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, quod.
-      Blanditiis repellat accusamus error ipsa eos inventore corporis eveniet.
-      Nulla quaerat delectus autem nam minima rerum officia officiis, debitis
-      nemo!
-    </p>
-    <a href="https://www.google.com/">Google</a>
-    <br />
-    <a href="https://www.vtop.vit.ac.in/">VTOP</a>
-    <br />
-    <a href="hello.html">Go to hello</a>
-    <img src="" alt="">
+    <form action="action.php">
+      <input type="text" placeholder="username" />
+      <input type="password" placeholder="password" />
+      <br />
+      <br />
+      <label for="101">
+        <input type="radio" value="class xi" name="class" id="101" />class xi
+      </label>
+      <br />
+      <br />
+      <label for="102">
+        <input type="radio" value="class xii" name="class" id="102" />class xii
+      </label>
+      <label for="math">
+        <input type="checkbox" value="math" name="subject" /> math
+        <input type="checkbox" value="science" name="subject" />science
+      </label>
+      <select name="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Bangalore">Bangalore</option>
+      </select>
+
+      <textarea
+        name="feedback"
+        id="103"
+        placeholder="please give your valuable feedback"
+        rows="5"
+        cols="10"
+      ></textarea>
+    </form>
   </body>
 </html>
