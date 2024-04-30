@@ -1,0 +1,46 @@
+#form-container{
+    background-color: aqua;
+    color: brown;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: space-evenly;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+input{
+    width: 100px;
+    border-radius: 5px;
+}
+#outerDiv{
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.card{
+    width: 200px;
+    height: 150px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+h1{
+    align-self: center;
+    margin-top: 50px;
+}
+h4{
+    align-self:end;
+    margin-right: 10px;
+}
+#card4{
+    width: 200px;
+    height: 150px;
+}
